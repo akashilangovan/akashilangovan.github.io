@@ -1,0 +1,344 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            .container { 
+                padding: 20px; 
+                font-family: monospace;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            .task-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+                gap: 15px;
+                padding: 20px;
+            }
+            .task-card {
+                position: relative;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                overflow: hidden;
+                transition: transform 0.2s;
+                background: white;
+                text-decoration: none;
+                color: #333;
+                cursor: pointer;
+            }
+            .task-card:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            }
+            .preview-container {
+                width: 100%;
+                aspect-ratio: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #f5f5f5;
+                pointer-events: none;
+            }
+            .preview-frame {
+                border: none;
+                width: 100%;
+                height: 100%;
+                transform-origin: center;
+                transform: scale(2);
+                pointer-events: none;
+            }
+            .task-title {
+                padding: 10px;
+                text-align: center;
+                font-weight: bold;
+                border-top: 1px solid #eee;
+                background: white;
+                pointer-events: none;
+            }
+            .card-link {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="container">
+        <h1>Task Visualizations</h1>
+        <div class="task-grid">
+    
+            <div class="task-card">
+                <a href="task_05a7bcf2_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_05a7bcf2_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task 05a7bcf2</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_0934a4d8_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_0934a4d8_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task 0934a4d8</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_09c534e7_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_09c534e7_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task 09c534e7</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_0d87d2a6_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_0d87d2a6_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task 0d87d2a6</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_16b78196_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_16b78196_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task 16b78196</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_1acc24af_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_1acc24af_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task 1acc24af</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_212895b5_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_212895b5_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task 212895b5</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_25094a63_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_25094a63_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task 25094a63</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_256b0a75_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_256b0a75_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task 256b0a75</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_3ed85e70_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_3ed85e70_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task 3ed85e70</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_40f6cd08_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_40f6cd08_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task 40f6cd08</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_47996f11_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_47996f11_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task 47996f11</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_4b6b68e5_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_4b6b68e5_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task 4b6b68e5</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_52fd389e_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_52fd389e_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task 52fd389e</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_79fb03f4_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_79fb03f4_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task 79fb03f4</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_891232d6_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_891232d6_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task 891232d6</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_896d5239_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_896d5239_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task 896d5239</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_8b28cd80_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_8b28cd80_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task 8b28cd80</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_93c31fbe_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_93c31fbe_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task 93c31fbe</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_a3f84088_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_a3f84088_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task a3f84088</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_aa4ec2a5_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_aa4ec2a5_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task aa4ec2a5</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_ac0c5833_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_ac0c5833_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task ac0c5833</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_b457fec5_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_b457fec5_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task b457fec5</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_b7999b51_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_b7999b51_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task b7999b51</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_b9630600_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_b9630600_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task b9630600</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_c6e1b8da_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_c6e1b8da_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task c6e1b8da</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_d931c21c_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_d931c21c_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task d931c21c</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_d94c3b52_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_d94c3b52_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task d94c3b52</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_da515329_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_da515329_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task da515329</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_e1d2900e_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_e1d2900e_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task e1d2900e</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_e619ca6e_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_e619ca6e_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task e619ca6e</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_e681b708_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_e681b708_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task e681b708</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_f3b10344_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_f3b10344_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task f3b10344</div>
+            </div>
+        
+            <div class="task-card">
+                <a href="task_f9d67f8b_viz.html" class="card-link"></a>
+                <div class="preview-container">
+                    <iframe class="preview-frame" src="task_f9d67f8b_preview.html" scrolling="no"></iframe>
+                </div>
+                <div class="task-title">Task f9d67f8b</div>
+            </div>
+        </div></div></body></html>
