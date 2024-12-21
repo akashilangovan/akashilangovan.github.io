@@ -39,7 +39,7 @@ def create_grid_visualization(task_id, attempts_data=None):
     }
     
     # Read task data
-    with open(f"/Users/akashilangovan/workspace/ARC-AGI/data/evaluation/{task_id}.json", 'r') as f:
+    with open(f"{task_id}.json", 'r') as f:
         data = json.load(f)
     
     html += f'<h2>Task: {task_id}</h2>'
